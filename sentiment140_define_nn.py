@@ -13,7 +13,7 @@ n_classes = 2
 
 batch_size = 32
 total_batches = int(1600000/batch_size)
-hm_epochs = 10
+hm_epochs = 5
 
 x = tf.placeholder('float')
 y = tf.placeholder('float')
@@ -54,7 +54,7 @@ def train_neural_network(x):
     cost = tf.reduce_mean( tf.nn.softmax_cross_entropy_with_logits(logits=prediction, labels=y) )
     optimizer = tf.train.AdamOptimizer(learning_rate=0.001).minimize(cost)
     with tf.Session() as sess:
-        sess.run(tf.initialize_all_variables())
+        sess.run(tf.global_variables_initializer())
         try:
             epoch = int(open(tf_log,'r').read().split('\n')[-2])+1
             print('STARTING:',epoch)
