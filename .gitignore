@@ -7,3 +7,8 @@ processed-test-set.csv
 test_set.csv
 train_set.csv
 train_set_shuffled.csv
+checkpoint
+model.ckpt.data-00000-of-00001
+model.ckpt.index
+model.ckpt.meta
+tf_sentiment140_define_nn.log
