@@ -3,6 +3,7 @@ Attempt at Twitter sentiment Analysis in Tensor Flow inspired by sentdex (https:
 
 Please Note that this project uses the following python library versions:  
 
+*python 3.5*
 *nltk (3.2.2)*  
 *numpy (1.12.1)*  
 *pickleshare (0.7.4)*  
@@ -24,7 +25,17 @@ move the contents of the now unzipped directory to your locally cloned repositor
 
 Run the following python scripts in order _(Since this employs the CPU version of TensorFlow I recommend running "2." in the background)_:
 1. `sentiment140_data_preprocessing.py`
-2. `sentiment140_define_nn.py`
+2. `sentiment140_define_nn.py`  
+
+
+Once the training is complete and you have an update `model.ckpt` file you can just do the following in a python terminal to see how the model classifies your own would be tweet:  
+```
+import sentiment140_define_nn.py
+
+use_neural_network("@Lebron You are the boss!")
+use_neural_network("I hate you!")
+
+```
 
 ### Remember ...
 This model will most likely not perform better than an end to end model with text data given from a specif context like movie dialouge etc. 

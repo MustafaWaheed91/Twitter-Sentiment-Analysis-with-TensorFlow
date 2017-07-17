@@ -43,7 +43,7 @@ def neural_network_model(data):
     return output
 
 
-# IMPORTANT
+
 saver = tf.train.Saver()
 tf_log = 'tf_sentiment140_define_nn.log'
 
@@ -173,7 +173,4 @@ def use_neural_network(input_data):
             print('Negative:',input_data)
 
 
-
-# use_neural_network("You are the boss!")
-# use_neural_network("I fucking hate you!")
 

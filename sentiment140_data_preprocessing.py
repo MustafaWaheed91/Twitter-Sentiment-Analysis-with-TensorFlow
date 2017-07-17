@@ -40,7 +40,6 @@ init_process('testdata.manual.2009.06.14.csv','test_set.csv')
 
 
 
-
 def create_lexicon(fin):
 	lexicon = []
 	with open(fin, 'r', buffering=100000, encoding='latin-1') as f:
