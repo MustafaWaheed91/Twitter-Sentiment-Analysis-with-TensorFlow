@@ -103,7 +103,7 @@ def train_neural_network(x):
                 f.write(str(epoch)+'\n') 
             epoch +=1
 
-# train_neural_network(x)
+train_neural_network(x)
 
 
 
@@ -141,8 +141,7 @@ def test_neural_network():
 
 
 
-
-# test_neural_network() 
+test_neural_network() 
 
 
 
@@ -175,6 +174,6 @@ def use_neural_network(input_data):
 
 
 
-use_neural_network("You are such great")
-use_neural_network("I am glad you are here")
+# use_neural_network("You are the boss!")
+# use_neural_network("I fucking hate you!")
 

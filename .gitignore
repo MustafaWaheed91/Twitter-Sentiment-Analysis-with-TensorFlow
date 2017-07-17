@@ -2,3 +2,8 @@
 .DS_Store
 training.1600000.processed.noemoticon.csv
 testdata.manual.2009.06.14.csv
+lexicon-2500-2638.pickle
+processed-test-set.csv
+test_set.csv
+train_set.csv
+train_set_shuffled.csv
