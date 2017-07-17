@@ -3,7 +3,7 @@ Attempt at Twitter sentiment Analysis in Tensor Flow inspired by sentdex (https:
 
 Please Note that this project uses the following python library versions:  
 
-*python 3.5*
+*python 3.5*  
 *nltk (3.2.2)*  
 *numpy (1.12.1)*  
 *pickleshare (0.7.4)*  
