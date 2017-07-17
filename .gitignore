@@ -1,0 +1,4 @@
+*.pyc
+.DS_Store
+training.1600000.processed.noemoticon.csv
+testdata.manual.2009.06.14.csv
