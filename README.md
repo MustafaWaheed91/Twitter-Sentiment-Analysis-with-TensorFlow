@@ -13,6 +13,9 @@ Please Note that this project uses the following python library versions:
 
 Download Standford University provided [Sentiment 140 Dataset](http://help.sentiment140.com/for-students/)  
 
+![Twitter Data](sentiment_140.png)
+
+
 Under _Where is the training data?_ section of the site you can download the zip file from any of the two links provided.  
 After this just download and unzip the `trainingandtestdata.zip` file.  
 
