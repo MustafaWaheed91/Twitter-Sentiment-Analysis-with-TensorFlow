@@ -12,3 +12,4 @@ model.ckpt.data-00000-of-00001
 model.ckpt.index
 model.ckpt.meta
 tf_sentiment140_define_nn.log
+__pycache__/
