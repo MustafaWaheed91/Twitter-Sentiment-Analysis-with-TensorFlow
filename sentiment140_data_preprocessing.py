@@ -4,6 +4,7 @@ from nltk.stem import WordNetLemmatizer
 import pickle
 import numpy as np
 import pandas as pd
+# import counter
 
 lemmatizer = WordNetLemmatizer()
 
